@@ -1,0 +1,88 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+ .container{
+      width: 1400px;
+      height: 700px;
+      display: inline-flex;
+  }
+  img{
+      width: 200px;
+      height: 250px;
+      float: left;
+      padding: 20px;
+  }
+   section,
+   article,
+   main {
+       background-color: white;
+       border-top: 5px solid gray;
+       padding: 0 20px;
+       margin: 20px;
+       width: 350px;
+       height: 730px;
+       transition-duration: 0.5s;
+   }
+   p{
+       padding:  1px;
+       padding-top: 10px;
+       
+   }
+  .date{
+     padding-left: 20px;
+
+ }
+h1{
+    color: #0974b3;
+    padding-left: 20px;
+    margin:0;
+    padding-top: 20px;
+} 
+button{
+    margin-left: 15px;
+    margin-top: 20px; 
+    width: 90%;
+    height: 80px;
+    border: none;
+    border-radius:20px 0px;
+    background-color:#0974b3 ;
+    color: white; 
+    transition-duration: 0.3s;
+}
+article{
+    height: 700px;
+}
+.gray{
+     color: #666;
+     padding-bottom: 20px;
+ }
+ section:hover,
+   article:hover,
+   main:hover {
+       background-color: white;
+       border-top: 5px solid #0974b3;
+       padding: 0 20px;
+       margin: 20px;
+       width: 350px;
+       height: 730px;
+       margin-top: 5px;
+       cursor: pointer;
+    }
+    button:hover{
+        background-color: #054063;
+        cursor: pointer;
+    }
+   .overlay{
+       position: absolute;
+       top: 150px;
+       opacity: 0;
+       transition-duration: 1s;
+   }
+   
+
+   .image:hover .overlay{
+       opacity: 1;
+       
+   }
